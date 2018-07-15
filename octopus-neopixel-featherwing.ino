@@ -1,5 +1,5 @@
 /*
- * octopus-rotary-encoder.ino - Example how to interface a NeoPixel FeatherWing with fablab's Octopus IoT board
+ * octopus-neopixel-featherwing.ino - Example how to interface a NeoPixel FeatherWing with fablab's Octopus IoT board
  *
  * Copyright (C) 2018 Wolfgang Klenk <wolfgang.klenk@gmail.com>
  *
@@ -25,7 +25,7 @@
 
 #define MAX_INTENSITY  80
 
-// tell it how many pixels, and which pin to use to send signals.
+// Tell it how many pixels, and which pin to use to send signals.
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN_PIXELS, NEO_GRB + NEO_KHZ800);
 
 // The setup function runs once when you press reset or power the board
